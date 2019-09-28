@@ -134,7 +134,6 @@ public class RestControllers {
         } catch(SignatureException e4){
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new JsonResponseBody(HttpStatus.BAD_REQUEST.value(),"signature fail"+e4.toString()));
         } catch(Exception e){
-            log.info("fuck");
             e.printStackTrace();
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new JsonResponseBody(HttpStatus.BAD_REQUEST.value(),"fuck you "+e.toString()));
         }
