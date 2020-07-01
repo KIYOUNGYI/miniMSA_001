@@ -43,7 +43,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-			<version>5.1.39</version> <!-- MySQL version - without it gives errors-->
+			<version>8.0.16</version> <!-- MySQL version - without it gives errors-->
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
